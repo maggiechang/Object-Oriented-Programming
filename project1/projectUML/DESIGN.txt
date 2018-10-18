@@ -1,0 +1,6 @@
+I left the adjacent method, distanceSquared method, and clamp method in the Functions.java file. I left these in here because they were used several times in other classes. Also, these methods did not have an object as a parameter so I just left them in the Functions.java file. 
+
+Classes that could be in multiple places:
+
+1) executeAnimationAction(), executeAction(), and executeActivityAction() all could have been in EventScheduler but I put them in Action.java since they are action methods.
+2) nextPositionMiner(), executeMinerFullActivity(), executeMinerNotFullAvtivity(), executeOreActivity(), executeOreBlobActivity(), executeQuakeActivity(), executeVeinActivity(), moveToOreBlob(), nextPositionOreBlob() were all in my Entity class because they involve the entities (blob, ore, vein, etc). Majority of them could have been in EventScheduler or WorldModel too.
